@@ -3,10 +3,11 @@
 <head>
     <!--Мета данные-->
     <link rel="shortcut icon" href="img/icons8-кот-16.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Питомник Ориентальных кошек">
     <meta name="author" content="Bys Stanislav">
+    <style>p{color: blue;}</style>
     <title>Orik- питомник Ориентальных кошек</title>
 </head>
 <body>
@@ -26,13 +27,7 @@
     <br>
     <!--Таблица с плюсами и минусами питомца-->
     <table>
-    <colgroup>
-        <col style="background-color: rgb(253, 219, 123);">
-    </colgroup>
-    <th background-color="#DDA0DD" colspan = "2">Плюсы и минусы данной породы семейства кошачьих</th>
-    <colgroup>
-        <col style="background-color: rgb(125, 214, 255);">
-    </colgroup>
+    <th colspan = "2">Плюсы и минусы данной породы семейства кошачьих</th>
     <caption>Любой текст</caption>
     <th>Плюсы</th>
     <th>Минусы</th>
@@ -59,42 +54,50 @@
     <tr>
         <td>Гулять с таким питомцем – одно удовольствие. Она не отойдёт от вас ни на шаг. Но отпускать её не стоит, ведь она настолько бесстрашна, что, даже увидев собаку, не поспешит ретироваться, и из-за этого может пострадать.</td>
     </tr>
+    
 </table>
-
 </article>
 </main>
 <!--Опт групп для выбора цвета, пола и возраста животного-->
-<label for="Color-select">Выберите цвет ориентала:</label>
-<select id="Color-select">
+<label for="Цвет">Выберите цвет ориентала:</label>
+<select id="Цвет">
   <optgroup label="Цвет кота">
     <option>Рыжий</option>
     <option>Серый</option>
     <option>Черный</option>
   </optgroup>
 </select>
-<label for="Возраст-select">Выберите цвет ориентала:</label>
-<select id="Возраст-select">
-  <optgroup label="Цвет кота">
+<label for="Возраст">Выберите возраст ориентала:</label>
+<select id="Возраст">
+  <optgroup label="Возраст кота">
     <option>Котенок</option>
     <option>Взрослый кот/кошка</option>
   </optgroup>
 </select>
-<label for="Sex-select">Выберите пол ориентала:</label>
-<select id="Sex-select">
+<label for="Пол">Выберите пол ориентала:</label>
+<select id="Пол">
   <optgroup label="Пол кота">
     <option>Самец</option>
     <option>Самка</option>
   </optgroup>
 </select>
+<div class="left">чингачгук</div>
 <!--email для того, чтобы мы связались с Вами-->
-<p></p>
 <h1>Введите ваш email</h1>
-<input type="email">
+<h2>Приобрести свое счастье</h2>
+        <form action="giveaway" method="POST" id="adoption">
+            <fieldset>
+                <legend>Заполните форму</legend>
+                <label for="name" form="adoption">Имя: <input id="name" type="text" placeholder="Поле для ввода имени"></label>
+                <label for="surname" form="adoption">Фамилия: <input id="surname" type="text" placeholder="Поле для ввода фамилии"></label>
+                <label for="email" form="adoption">Электронная почтая: <input id="email" type="email" placeholder="Поле для ввода адреса электронной почты"></label>
+                <label for="phone" form="adoption">Телефон: <input id="phone" type="number" placeholder="Поле для ввода номера телефона"></label>
+                <label for="address" form="adoption">Адрес: <input id="adress" type="text" placeholder="Поле для ввода адреса проживания"></label>
 </body>
 <footer class="footer">
         <div class="info">
-            <p class="name"><strong><em>Orik</em></strong></p>
-            <p class="location">г. Владивосток</p>
+            <h1 class="name"><strong><em>Orik</em></strong></h1>
+            <h1 class="location">г. Владивосток</h1>
         </div>
     </div>    
     <div class="socials">
