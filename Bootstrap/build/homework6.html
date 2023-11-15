@@ -1,0 +1,169 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="author" content="Бысь Станислав"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/homework6.css"> 
+  <title>Toyota Cars</title> 
+</head> 
+<body> 
+  <header> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+      <a class="navbar-brand" href="#">Toyota</a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 
+        aria-expanded="false" aria-label="Toggle navigation"> 
+        <span class="navbar-toggler-icon"></span> 
+      </button> 
+      <div class="collapse navbar-collapse" id="navbarNav"> 
+        <ul class="navbar-nav"> 
+          <li class="nav-item active"> 
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> 
+          </li> 
+          <li class="nav-item"> 
+            <a class="nav-link" href="#">Models</a> 
+          </li> 
+          <li class="nav-item"> 
+            <a class="nav-link" href="#">Services</a> 
+          </li> 
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">About</a>
+                <a class="dropdown-item" href="#">Contact</a>
+              </div>
+            </div>
+          </li> 
+        </ul> 
+      </div> 
+    </nav> 
+  </header> 
+  <div class="container"> 
+    <div class="row"> 
+      <div class="col"> 
+        <!-- Content here --> 
+        <h2>Toyota Cars</h2> 
+        <p>Welcome to our website showcasing the latest Toyota vehicles.</p> 
+        <div id="scrollable-block" style="height: 200px; overflow: auto;">
+          <!-- Content that can be scrolled -->
+          <p>Scroll me!</p>
+        </div>
+        <div id="scrollable-block" style="height: 300px; overflow: auto;">
+            <p>Toyota has put an end to the story with mysterious teasers: after all, this is the ninth generation of Camry. But why does it look almost the same as its predecessor?</p>
+            <p>Let's try to understand the logic of the automaker. Sedans are already moving to the rank of dinosaurs - automakers are abandoning them altogether: the Ford Focus has rested, the Passat has not appeared in the ninth generation. However, Toyota apparently knows some secret, because at the end of last year, the Camry became the fifth best-selling car in the United States, losing to the pickups and RAV4 brother beloved by this market. In global sales in 2022, Camry became the third, having found almost 612 thousand customers.</p>
+            <p>In such a situation, Toyota acted as a medical worker, one of the main rules of which is "do no harm". Reshaping something that sells well would not be quite right. Therefore, the company has only worked on the errors. But did she make a miscalculation?</p>
+            <p>From a design point of view, we will not consider the car, since here on the face (well, on the stern, excuse the pun) is a banal restyling with the preservation of the main bodywork. Much more interesting is the fact that it has not become news, the rejection of the V6 - one of the most beloved engines of customers in Russia. Now the Toyota Camry is offered only as a hybrid. At least in those markets for which the new product has been announced.</p>
+            <p>The model is presented with front and all-wheel drive, but in both cases the hybrid is based on a 2.5-liter gasoline engine. The base Camry received two electric motors, the AWD modification has a third motor on the rear axle. The power of the system is 228 and 265 hp, respectively.</p>
+            <p>By default, the new Toyota Camry is equipped with a keyless start, dual-zone climate control, wireless charging, a Toyota Safety Sense 3.0 complex, a dashboard with a 7-inch display and multimedia with an 8-inch screen (in more expensive versions, the model has a fully digital dashboard on a 12.3-inch display and multimedia of a similar diagonal).</p>
+            <p>The model will enter the market in the spring of 2024. Prices have not yet been announced, but you can buy an eighth-generation Camry with a hybrid transmission starting from $ 29 thousand. The novelty is likely to be more expensive.</p>
+        </div>
+        <p>Quotes from successful people</p>
+        <div class="accordion" id="accordionExample"> 
+          <div class="card"> 
+            <div class="card-header" id="headingOne"> 
+              <h2 class="mb-0"> 
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" 
+                  aria-controls="collapseOne"> 
+                  Robin Sharma
+                </button> 
+              </h2> 
+            </div> 
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample"> 
+              <div class="card-body"> 
+                To be successful, you need to have a passion for what you do.
+              </div> 
+            </div> 
+          </div> 
+          <div class="card"> 
+            <div class="card-header" id="headingTwo"> 
+              <h2 class="mb-0"> 
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" 
+                  aria-expanded="false" aria-controls="collapseTwo"> 
+                  Herman Cain
+                </button> 
+              </h2> 
+            </div> 
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample"> 
+              <div class="card-body"> 
+                Success is not the key to happiness. Happiness is the key to success. If you love what you do, you will succeed.
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+        <div class="alert alert-primary" role="alert"> 
+            Think about these words.
+        </div> 
+        <div class="card">
+            <img src="img/car3.jpg" class="card-img-top" alt="Camry 2023"> 
+          <div class="card-body"> 
+            <h5 class="card-title">Toyota Camry</h5> 
+            <p class="card-text">The reliable and stylish Toyota Camry.</p> 
+            <a href="#" class="btn btn-primary">Learn More</a> 
+          </div> 
+        </div> 
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Buy Now</button> 
+        <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Schedule a test drive" onclick="showTooltip()">Test Drive</button>
+ 
+      </div> 
+      <div class="col"> 
+        <!-- Content here --> 
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"> 
+          <div class="carousel-inner"> 
+            <div class="carousel-item active"> 
+              <img src="img/car2.jpg" class="d-block w-100" alt="Camry 2023"> 
+            </div> 
+            <div class="carousel-item"> 
+              <img src="img/car1.jpg" class="d-block w-100" alt="Camry 2023"> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+  <footer> 
+    <div class="container"> 
+      <p>&copy; 2023 Toyota Cars</p> 
+    </div> 
+  </footer> 
+ 
+  <div class="modal" id="exampleModal" tabindex="-1" role="dialog"> 
+    <div class="modal-dialog" role="document"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <h5 class="modal-title">Buy Now</h5> 
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
+            <span aria-hidden="true">&times;</span> 
+          </button> 
+        </div> 
+        <div class="modal-body"> 
+          <p>Are you sure?</p> 
+        </div> 
+        <div class="modal-footer"> 
+          <button type="button" class="btn btn-primary">Save changes</button> 
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+  <script>
+    function showTooltip() {
+      var tooltip = document.getElementById("tooltip");
+      tooltip.classList.toggle("hidden");
+    }
+  </script>
+</body> 
+</html>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+
+
+    
