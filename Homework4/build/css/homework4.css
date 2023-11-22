@@ -47,10 +47,6 @@
     padding: 0;
 }
 
- /* .T1, .T2, .T3, .T4, .T5 {
-    border: 1px gray solid;
-} */
-
 header, section, aside, footer {
     display: block;
     border: 1px solid black;
